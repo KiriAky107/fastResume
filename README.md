@@ -32,7 +32,7 @@
 需要 Python 3.10 或更新版本。先把项目拉到本地：
 
 ```bash
-git clone [https://github.com/KiriAky107/fastResume.git](https://github.com/KiriAky107/fastResume.git)
+git clone https://github.com/KiriAky107/fastResume.git
 cd fastResume
 python -m pip install -r requirements.txt
 
