@@ -1,0 +1,97 @@
+# 高松灯主题模板。
+basics:
+  name: 高松灯
+  photo: photos/tomori.jpg
+  photo_focus: [0.75, 0.5]
+  position: AI 应用开发实习生｜检索与数据处理
+  subtitle: AI APPLICATION DEVELOPMENT INTERN
+  eyebrow: TOMORI TAKAMATSU · DEVELOPER RESUME
+  tagline: 石头按颗收藏，异常按链路找回
+  phone: ""
+  email: tomori@example.com
+  location: 线上 / 线下可议
+  status: 认真找回每一个问题
+  details: |-
+    年龄：16岁 · 生日：11月22日
+    MyGO!!!!! · 主唱 / 作词
+
+code:
+  - label: 作品集
+    url: https://example.com/tomori
+    icon: globe
+
+profile: >-
+  意向为 AI 应用与 Python 后端开发实习，关注零散信息如何被整理、找到并可靠地使用。
+  能将文档处理、混合检索、模型调用与结果展示串成完整流程，愿意通过样例、日志和失败复现反复核对效果。
+  希望承担检索问答、知识管理与任务自动化功能开发；表达可以慢一点，任务状态和引用来源要交代清楚。
+
+education:
+  - date: 在读
+    school: 羽丘女子学园
+    major: 高校一年级 · A组
+    detail: 喜欢收藏石头、创可贴与漂亮的叶子；以独特感性表达自己的想法
+
+skills:
+  groups:
+    - label: 后端与任务
+      value: Python、FastAPI、SQLAlchemy、Celery、Redis、SQLite
+    - label: 检索与模型
+      value: RAG、FAISS、关键词召回、混合检索、重排、LLM API
+    - label: Agent 应用
+      value: Agent Runtime、工具调用、检查点恢复、预算与审批控制
+    - label: 工程实践
+      value: TypeScript、Vue 3、Git、Docker、Pytest、日志与回归样例
+
+internship_experiences:
+  - name: 石头研究所｜AI 应用开发实习生
+    date: 20XX.XX - 20XX.XX
+    role: 文档检索与数据处理
+    url: ""
+    description: 为知识管理团队整理文档解析和检索问答流程。
+    highlights:
+      - "检索验证：保留原文位置与版本，整理无答案和重复文档样例，检查引用与去重；石头值得收藏，错误结果不必。"
+    tech_stack: Python · FastAPI · FAISS
+
+project_experiences:
+  - name: 石头档案馆｜多模态收藏检索
+    date: 20XX.XX - 至今
+    role: 后端与检索流程开发
+    url: ""
+    description: 为照片、笔记与收藏记录建立统一档案，支持标签筛选、语义搜索和带出处的问答；让“那颗有点特别的石头”也能被再次找到。
+    highlights:
+      - "**入库与溯源：**拆分解析、分段、索引和发布阶段，保留原文位置与文档版本；重试复用内容指纹，避免同一份笔记被收藏三遍后占据所有搜索结果。"
+      - "检索质量：组合关键词与向量召回，按查询意图重排候选；用专名、模糊描述和无答案问题整理回归样例，逐项检查命中内容、引用位置与拒答行为。"
+      - "结果解释：在回答旁展示引用片段与来源入口，索引未完成时明确提示；没找到就继续查，不能把模型的联想当作新发现的矿物。"
+    tech_stack: Python · FastAPI · FAISS · BM25 · SQLite · Vue 3
+
+  - name: 排练回声｜笔记整理 Agent
+    date: 20XX.XX - 20XX.XX
+    role: Runtime 与工具链开发
+    url: ""
+    description: 将排练记录整理为待办、曲目问题与下次讨论提纲，允许用户检查草稿后再写入工作区，避免一句随手记下的话被直接升级成全员任务。
+    highlights:
+      - "运行约束：统一工具注册与调用结果，执行前检查审批、步数和预算；只读检索可继续推进，修改笔记必须经过确认，让热心助手懂得先敲门。"
+      - "失败恢复：按安全边界保存检查点，恢复时核对任务版本与已完成工具记录；对写入请求做幂等去重，重开一次任务不等于再写一遍待办。"
+      - "协作调度：按依赖分派检索与整理子任务，分别记录成功、失败与取消状态；汇总前校验引用和产物，合声可以叠加，异常不能互相盖住。"
+    tech_stack: Python · Agent Runtime · Pydantic · Redis · Pytest
+
+certificates:
+  - name: MyGO!!!!! 乐队活动
+    result: 主唱担当
+  - name: MyGO!!!!! 歌词创作
+    result: 作词担当
+work_experiences: []
+section_titles:
+  certificates: 活动与成就
+theme:
+  paper: A4
+  accent: "#3D789E"
+  ink: "#20313D"
+  muted: "#586D7B"
+  background: "#EDF6FC"
+  border: "#C8DDEB"
+  font: Calibri
+  east_asia_font: Microsoft YaHei
+  body_size: 8.5
+  line_height: 12.6
+  margin_mm: {top: 10, right: 14, bottom: 9, left: 14}

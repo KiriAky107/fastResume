@@ -1,0 +1,86 @@
+# 通用匿名模板：复制后按本人经历填写。
+# 程序原样导出配置，不会自动脱敏，也不会生成或验证履历真实性。
+basics:
+  name: 匿名键盘手
+  position: 软件开发实习生
+  subtitle: SOFTWARE DEVELOPMENT INTERN
+  eyebrow: PERSONAL RESUME
+  tagline: 可以迷路，调用链不能迷路
+  phone: ""
+  email: member@example.com
+  location: 线上 / 线下可议
+  status: 到岗时间可协商
+  details: ""
+
+code:
+  - label: 作品集
+    url: https://example.com
+    icon: globe
+
+profile: >-
+  求职方向为软件开发实习，希望承担接口实现、前后端联调与业务功能开发。
+  请结合真实经历补充主要能力、希望解决的问题和能够承担的职责。
+
+education:
+  - date: 20XX.09 - 至今
+    school: 某大学
+    major: 计算机相关专业｜本科
+    detail: 按实际情况填写毕业时间、课程或相关学习经历
+
+skills:
+  groups:
+    - label: 后端与数据
+      value: Python、FastAPI、SQLAlchemy、PostgreSQL
+    - label: 前端与工程
+      value: TypeScript、Vue 3、Git、Docker、Pytest
+
+internship_experiences:
+  - name: 公司或团队名称｜实习岗位
+    date: 20XX.XX - 20XX.XX
+    role: 本人实际职责
+    url: ""
+    description: 说明团队业务与实习工作范围；没有实习经历时删除本条或改为空列表。
+    highlights:
+      - "实际贡献：填写完成的工作、采用的方案和可核实的结果。"
+    tech_stack: 按实际使用填写
+
+project_experiences:
+  - name: 项目名称｜一句话定位
+    date: 20XX.XX - 至今
+    role: 本人实际职责
+    url: ""
+    description: 说明服务对象、解决的问题和主要功能。
+    highlights:
+      - "**功能实现：**写清本人做了什么、采用什么方案，以及解决的具体问题。"
+      - "验证与优化：补充实际测量条件和结果；没有数据时不编造百分比或规模。"
+    tech_stack: Python · FastAPI · TypeScript
+
+work_experiences: []
+certificates:
+  - name: 竞赛或活动名称
+    result: 奖项等级
+  - name: 证书名称
+    result: 证书级别或成绩
+extra_sections: []
+
+section_titles:
+  profile: 求职摘要
+  education: 教育背景
+  skills: 专业技能
+  work_experiences: 工作经历
+  internship_experiences: 实习经历
+  project_experiences: 项目经历
+  certificates: 竞赛奖项与证书
+
+theme:
+  paper: A4
+  accent: "#0D7187"
+  ink: "#13242D"
+  muted: "#52636D"
+  background: "#EFF8FA"
+  border: "#D3E2E7"
+  font: Calibri
+  east_asia_font: Microsoft YaHei
+  body_size: 8.5
+  line_height: 12.6
+  margin_mm: {top: 10, right: 14, bottom: 9, left: 14}

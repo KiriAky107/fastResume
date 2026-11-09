@@ -1,0 +1,17 @@
+# Generated documents and local environments
+output/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Personal resume configurations stay local by default
+my_resume.*
+resume.private.*
+private/
+/resume.yaml
+/resume.yml
+/resume.json

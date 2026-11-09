@@ -1,0 +1,97 @@
+# 千早爱音主题模板。
+basics:
+  name: 千早爱音
+  photo: photos/anon.jpg
+  photo_focus: [0.25, 0.5]
+  position: 全栈开发实习生｜产品与协作工具
+  subtitle: FULL-STACK DEVELOPMENT INTERN
+  eyebrow: ANON TOKYO · DEVELOPER RESUME
+  tagline: 乐队名可以先想，接口名请按规范来
+  phone: ""
+  email: anon@example.com
+  location: 线上 / 线下可议
+  status: 排练之外，随时开工
+  details: |-
+    年龄：16岁 · 生日：9月8日
+    MyGO!!!!! · 吉他 / 服装 / SNS
+
+code:
+  - label: 作品集
+    url: https://example.com/anon
+    icon: globe
+
+profile: >-
+  意向为全栈开发与产品工程实习，喜欢把“这个一定会很受欢迎”落成能演示、能验证的功能。
+  能从需求梳理推进到界面交互、接口实现和部署交付，关注使用路径是否顺畅、异常反馈是否清楚。
+  乐于主动对齐需求并推动协作，希望负责真实业务的端到端迭代；宣传图可以抢眼，错误提示必须看得懂。
+
+education:
+  - date: 在读
+    school: 羽丘女子学园
+    major: 高校一年级 · A组
+    detail: 中学时曾任学生会长，后转入羽丘；性格开朗，行动力强
+
+skills:
+  groups:
+    - label: 前端开发
+      value: TypeScript、Vue 3、React、Vite、响应式布局与交互状态设计
+    - label: 后端与数据
+      value: Python、FastAPI、SQLAlchemy、PostgreSQL、RESTful API
+    - label: 协作体验
+      value: WebSocket、乐观更新、表单校验、权限与冲突提示
+    - label: 工程交付
+      value: Git、Docker Compose、Pytest、CI、日志排查与部署文档
+
+internship_experiences:
+  - name: RiNG Lab｜全栈开发实习生
+    date: 20XX.XX - 20XX.XX
+    role: 前端与接口开发
+    url: ""
+    description: 为演出技术团队开发活动报名与排练看板。
+    highlights:
+      - "交互交付：实现报名表单和状态反馈，联调接口并复现重复提交问题；海报可以先抢眼，数据必须再核验。"
+    tech_stack: TypeScript · Vue 3 · FastAPI
+
+project_experiences:
+  - name: ANON TOKYO｜排练预约与演出看板
+    date: 20XX.XX - 至今
+    role: 全栈设计与开发
+    url: ""
+    description: 面向小型乐队的协作应用，集中管理成员档期、排练预约、演出清单与物料准备，避免群聊里的“收到”被误当成真正完成。
+    highlights:
+      - "**预约一致性：**以事务和唯一约束处理时段占用，提交时重新核验成员与场地冲突；重复点击复用请求标识，避免同一排练凭空多出分身。"
+      - "协作反馈：按任务状态展示负责人、截止时间和阻塞原因；通过实时事件刷新看板，断线后拉取增量并核对版本，让“我以为你看见了”有据可查。"
+      - "交付验证：覆盖冲突预约、撤销与断线重连场景，补充联调数据和部署说明；页面热闹归热闹，发布前仍需通过检查。"
+    tech_stack: Vue 3 · TypeScript · FastAPI · PostgreSQL · WebSocket
+
+  - name: 粉色发布台｜活动页面与素材管理
+    date: 20XX.XX - 20XX.XX
+    role: 前端主导与接口实现
+    url: ""
+    description: 为演出活动提供报名页、海报素材库与发布预览，将“先发出去再说”改成可以校验、预览和撤回的发布流程。
+    highlights:
+      - "发布流程：拆分草稿、预览与上线状态，在服务端校验必填内容和资源引用；保留版本记录，避免改海报标题时顺手把报名入口改没了。"
+      - "体验优化：按路由拆分资源，为图片提供尺寸占位与延迟加载；统一加载、空数据和失败状态，在移动端检查长标题、慢网络与重复提交。"
+      - "协作约定：整理组件规范和接口示例，将视觉提案转成可复用布局；主色可以很粉，组件边界保持清楚。"
+    tech_stack: React · Vite · FastAPI · SQLite · Docker Compose
+
+certificates:
+  - name: MyGO!!!!! 乐队活动
+    result: 吉他担当
+  - name: MyGO!!!!! 服装与 SNS
+    result: 负责服装与 SNS
+work_experiences: []
+section_titles:
+  certificates: 活动与成就
+theme:
+  paper: A4
+  accent: "#C65386"
+  ink: "#30232C"
+  muted: "#705A67"
+  background: "#FFF1F7"
+  border: "#EACDDC"
+  font: Calibri
+  east_asia_font: Microsoft YaHei
+  body_size: 8.5
+  line_height: 12.6
+  margin_mm: {top: 10, right: 14, bottom: 9, left: 14}

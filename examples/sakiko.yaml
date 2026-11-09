@@ -1,0 +1,97 @@
+# 丰川祥子主题模板。
+basics:
+  name: 丰川祥子
+  photo: photos/sakiko.jpg
+  photo_focus: [0.25, 0.5]
+  position: 后端开发实习生｜平台与可靠性
+  subtitle: BACKEND DEVELOPMENT INTERN
+  eyebrow: SAKIKO TOGAWA · DEVELOPER RESUME
+  tagline: 舞台可以戴面具，生产环境必须可观测
+  phone: ""
+  email: sakiko@example.com
+  location: 线上 / 线下可议
+  status: 舞台之外，照常推进
+  details: |-
+    年龄：16岁 · 生日：2月14日
+    Ave Mujica · 键盘 / Oblivionis
+
+code:
+  - label: 作品集
+    url: https://example.com/sakiko
+    icon: globe
+
+profile: >-
+  意向为后端与平台开发实习，关注复杂流程的边界、权限、一致性与故障恢复。
+  能将业务规则拆成可验证的状态转换，围绕任务调度、数据同步和发布管理组织接口、存储与运行记录。
+  希望承担需要持续维护的服务开发，重视实现方案与交接文档；可以统一舞台风格，不能用统一口径掩盖异常。
+
+education:
+  - date: 在读
+    school: 羽丘女子学园
+    major: 高校一年级
+    detail: Ave Mujica 的组建者，致力于维持乐队的舞台世界观
+
+skills:
+  groups:
+    - label: 后端与存储
+      value: Python、FastAPI、SQLAlchemy、PostgreSQL、对象存储
+    - label: 异步与一致性
+      value: Celery、Redis、状态机、幂等请求、版本校验、冲突处理
+    - label: 平台与运维
+      value: Linux、Docker Compose、权限设计、结构化日志、备份恢复
+    - label: 工程质量
+      value: Git、Pytest、CI、接口契约、故障场景验证与部署文档
+
+internship_experiences:
+  - name: 月影舞台技术室｜后端开发实习生
+    date: 20XX.XX - 20XX.XX
+    role: 服务开发与运行交接
+    url: ""
+    description: 为舞台服务团队开发异步任务和资料备份接口。
+    highlights:
+      - "故障处理：补充请求去重、任务超时和失败日志，演练备份恢复并整理交接步骤；幕后可以低调，告警必须有人听见。"
+    tech_stack: Python · PostgreSQL · Redis
+
+project_experiences:
+  - name: Masquerade Control｜演出编排平台
+    date: 20XX.XX - 至今
+    role: 后端架构与调度实现
+    url: ""
+    description: 为舞台物料、人员安排与演出流程提供依赖编排、权限控制和变更追踪；成员可以保持神秘，谁改了开场顺序不能成为谜题。
+    highlights:
+      - "**流程建模：**以状态机约束准备、审核、发布与撤回，提交时校验依赖是否满足；把阻塞原因返回到具体任务，避免一张总表承载所有人的猜测。"
+      - "权限与审计：按项目和操作分配访问权限，重要变更保存操作者、版本及前后差异；界面上的面具只负责装饰，服务端仍逐次校验身份。"
+      - "可靠调度：设置超时、重试与取消规则，按依赖推进任务；注入失败与重复消息验证状态收敛，谢幕不靠手动改库。"
+    tech_stack: FastAPI · PostgreSQL · Celery · Redis · Docker Compose
+
+  - name: 幕后保险箱｜版本同步与恢复服务
+    date: 20XX.XX - 20XX.XX
+    role: 数据协议与恢复链路开发
+    url: ""
+    description: 面向跨设备舞台资料的同步服务，保存版本元数据与对象内容，提供冲突提示、备份清单和恢复校验；预算紧张也不能把“有副本”当成“能恢复”。
+    highlights:
+      - "同步协议：拆分元数据提交与文件上传，通过版本号检查覆盖冲突；请求标识去重重复提交，保留失败原因，让重新连接后的重试不变成新的事故。"
+      - "备份恢复：保存对象引用和摘要清单，恢复后读回核对；验证对象缺失、断点续传与旧版本还原，道具齐全再开幕。"
+      - "运行交接：整理配置、备份、回滚与告警步骤，日志关联请求与任务编号；总指挥暂时离场，值班同学仍能照章处理。"
+    tech_stack: Python · SQLAlchemy · PostgreSQL · S3 API · Pytest
+
+certificates:
+  - name: Ave Mujica 组建与舞台
+    result: 组建乐队，维护世界观
+  - name: CRYCHIC 乐队活动
+    result: 曾任作曲与键盘
+work_experiences: []
+section_titles:
+  certificates: 活动与成就
+theme:
+  paper: A4
+  accent: "#79569B"
+  ink: "#2D2639"
+  muted: "#6C5D7B"
+  background: "#F4EFFB"
+  border: "#DCCDEB"
+  font: Calibri
+  east_asia_font: Microsoft YaHei
+  body_size: 8.5
+  line_height: 12.6
+  margin_mm: {top: 10, right: 14, bottom: 9, left: 14}
